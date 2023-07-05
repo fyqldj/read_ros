@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/catkin_ws/install
+
+Name: odom_topic
+Description: Description of odom_topic
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp std_msgs
